@@ -5,16 +5,17 @@ body {
 }
 
 .header {
-    background-color: black;
+    background-color: #1F2937;
     display: flex;
     color: white;
-}
-
-.header {
     display: flex;
     padding: 0;
     list-style-type: none;
     justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    height: 40px;
 }
 
 .header a {
@@ -22,22 +23,58 @@ body {
     text-decoration: none;
 }
 
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
 .header-links {
     display: flex;
     gap: 30px;
     margin-left: auto;
+    align-items: center;
+    font-size: 18px;
 }
 
 .description {
-    background-color: darkblue;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    background-color: #1F2937;
     flex: auto;
+    color: white;
+    display: flex;
+    padding: 50px 100px;
+    gap: 10px;
+}
+
+.intro {
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+    background-color: gray;
+}
+
+.intro-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+ul {
+    margin: 0px;
 }
 
 .info {
+    padding-left: 100px;
+    padding-right: 100px;
     background-color: white;
     flex: 1;
 }
 
 .footer {
+    padding-left: 100px;
+    padding-right: 100px;
     background-color: black;
+    color: white;
 }
