@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    color: white;
+}
+
+.header ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.description {
+    background-color: darkblue;
+    flex: auto;
+}
+
+.info {
+    background-color: white;
+    flex: 1;
+}
+
+.footer {
+    background-color: black;
+}
