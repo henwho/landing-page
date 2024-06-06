@@ -10,16 +10,22 @@ body {
     color: white;
 }
 
-.header ul {
+.header {
     display: flex;
     padding: 0;
     list-style-type: none;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .header a {
     color: white;
     text-decoration: none;
+}
+
+.header-links {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
 }
 
 .description {
