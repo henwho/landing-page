@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    flex-wrap: wrap;
 }
 
 .header {
@@ -82,7 +83,25 @@ ul {
     padding-left: 100px;
     padding-right: 100px;
     background-color: white;
-    flex: 1;
+    /* flex: 0 0 100%; */
+    /* flex-basis: 100%; */
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* add all these elements into parent flexbox instead? */
+
+.services {
+
+}
+
+.quote {
+    background-color: lightgrey;
+}
+
+.action-call {
+
 }
 
 .footer {
