@@ -54,6 +54,7 @@ body {
 .image {
     flex: 1;
     background-color: gray;
+    text-align: center;
 }
 
 .intro-title {
