@@ -70,6 +70,10 @@ ul {
     margin: 0px;
 }
 
+.description .intro .body {
+    font-size: 17px;
+}
+
 .description button {
     width: 100px;
     background-color: dodgerblue;
@@ -77,6 +81,7 @@ ul {
     border: 0px;
     padding: 5px 0px;
     color: white;
+    font-size: 17px;
 }
 
 .info {
