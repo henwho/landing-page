@@ -134,8 +134,8 @@ ul {
 }
 
 .services .flexbox .element .icon img {
-    height: 146px;
-    width: 146px;
+    height: 150px;
+    width: 150px;
     object-fit: cover;
     border-radius: 8px;
 }
